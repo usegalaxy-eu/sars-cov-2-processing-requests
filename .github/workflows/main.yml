@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Run a multi-line script
+        run: |
+          pip install bioblend
+          python -c 'import bioblend'
+          if [[ `git diff --name-only HEAD~1 -- file_requests/` ]]; then
+              for new_links_file in `git diff --name-only HEAD~1 -- file_requests/`; do
+                  python ftp_links_to_yaml.py $new_links_file collection_name -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i bba639520106e862 -u 20
+              done
+          fi
+
+      # - uses: actions/cache@v2
+      #   with:
+      #     path: ~/.cache/pip
+      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pip-
+      #       - name: Run a multi-line script
+      #         run: |
+      #           if [[ `git diff --name-only HEAD~1 file_requests/` ]]; then
+      #               for $new_file in `git diff --name-only HEAD~1 file_requests/`; do
+      #                   python -g https://usegalaxy.eu -a $GALAXY_API_KEY -i c2385e3cf582118c -u 20
+#                fi
+#- name: Run a multi-line script
+#        run: |
+
+
+#          fi
+#          echo test, and deploy your project.
