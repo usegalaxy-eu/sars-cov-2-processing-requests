@@ -38,7 +38,7 @@ if __name__ == '__main__':
     dataset_id = gi.tools.upload_file(args.links_file, args.history_id)['outputs'][0]['id']
     collection_description = {'collection_type': 'list',
                               'element_identifiers': [{'id': dataset_id,
-                                                       'name': 'File with FTP links',
+                                                       'name': args.links_file,
                                                        'src': 'hda'}],
                               'name': args.collection_name}
     gi.histories.create_dataset_collection(args.history_id, collection_description)
