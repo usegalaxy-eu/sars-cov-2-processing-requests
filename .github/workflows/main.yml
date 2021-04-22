@@ -27,7 +27,7 @@ jobs:
           python -c 'import bioblend'
           if [[ `git diff --name-only --diff-filter=A HEAD~1 -- file_requests/` ]]; then
               for new_links_file in `git diff --name-only --diff-filter=A HEAD~1 -- file_requests/`; do
-                  python upload_file_to_galaxy.py $new_links_file 'FTP links by library' -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i 465b4b75fc1f18c0
+                  python upload_file_to_galaxy.py $new_links_file 'FTP links by library' -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i 311a32d7489f126c
               done
           fi
 
