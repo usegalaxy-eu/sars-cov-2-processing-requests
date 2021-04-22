@@ -1,2 +1,3 @@
+# Header line describing the PR
 ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR001/ERR001000/ERR001000_1.fastq.gz
 ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR001/ERR001000/ERR001000_2.fastq.gz
