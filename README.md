@@ -1,4 +1,5 @@
-# ena-processing-requests
+# SARS-CoV-2 processing requests
+
 Request execution of Galaxy SARS-CoV-2 variation analysis workflows on input data you provide.
 
 To use, just follow these steps:
