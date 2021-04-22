@@ -7,6 +7,8 @@ To use, just follow these steps:
   * Links need to be formatted as follows: `<base_url><sample ID>_[12].<file_extension>` (1 representing the forward strand and 2 the reverse strand of paired-end data). If your data is not accessible in this way, or unpublished, it's not a problem - just [create an issue](https://github.com/simonbray/ena-processing-requests/issues/new) and describe what you need.
 * Create a PR with your changes. We will review and merge it as soon as possible.
 * After merging, the data will be uploaded to Galaxy and processed.
+* Your results will be automatically pushed to an [FTP server (ftp://xfer13.crg.eu/)](ftp://xfer13.crg.eu)
+* after on day your results will included in the [viral Beacon project](https://covid19beacon.crg.eu)
 
 ## Links
 * [Documentation for the project](https://covid19.galaxyproject.org/genomics/global_platform/)
