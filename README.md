@@ -21,7 +21,7 @@ This automation system is set up to work with **ARTIC-amplified paired-end Illum
 * Once ready, the complete analysis will become available as a set of [published histories on the server](https://usegalaxy.eu/histories/list_published).
   
   💡 Hint: Your histories will carry the filename from your pull request in their name.
-* Key result files - BAM, VCF and consensus sequence FASTA files for each sample in your batch, will also be pushed automatically to a publicly readable [FTP server](ftp://xfer13.crg.eu) hosted by [BSC](https://www.bsc.es).
+* Key result files - BAM, VCF and consensus sequence FASTA files for each sample in your batch - will also be pushed automatically to a publicly readable [FTP server](ftp://xfer13.crg.eu) hosted by [BSC](https://www.bsc.es).
 * After a few days your results will also be included in the [viral Beacon project](https://covid19beacon.crg.eu) dashboard.
 
 ## Links
@@ -68,4 +68,3 @@ Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana Uni
 
   <!--a href="http://galaxyp.org/">          <img src="./img/galaxyp.png" alt="GalaxyP" width = "10%" /></a> &nbsp;-->
 </p>
-
