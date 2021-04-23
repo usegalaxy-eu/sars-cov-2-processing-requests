@@ -16,10 +16,10 @@ Analysis of your data:
 * After merging, the data will be uploaded to [Galaxy Europe](https://usegalaxy.eu) and processed by our [collection of SARS-CoV-2 genomic sequence analysis workflows](https://github.com/galaxyproject/iwc/tree/main/workflows), which will produce highly-sensitive per-sample variant calls, per-batch variant reports and reliable consensus sequences for all your samples.
 * Depending on the amount of other jobs running on our server and on the size of your data batch, processing may take between a few hours and a day.
 * Once ready, the complete analysis will become available as a set of [published histories on the server](https://usegalaxy.eu/histories/list_published).
-
+  
   Hint: Your histories will carry the filename from your pull request in their name.
 * Key result files - BAM, VCF and consensus sequence FASTA files for each sample in your batch, will also be pushed automatically to a publicly readable [FTP server (ftp://xfer13.crg.eu/)](ftp://xfer13.crg.eu).
-* With a delay of some days your results will also be included in the [viral Beacon project](https://covid19beacon.crg.eu) dashboard.
+* After a few days your results will also be included in the [viral Beacon project](https://covid19beacon.crg.eu) dashboard.
 
 ## Links
 * [Documentation for the project](https://covid19.galaxyproject.org/genomics/global_platform/)
