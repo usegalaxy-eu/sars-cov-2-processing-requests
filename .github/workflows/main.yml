@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - name: Run a multi-line script
+      - name: Check for new files and upload if necessary
         run: |
           if [[ `git diff --name-only --diff-filter=A HEAD~1 -- file_requests/` ]]; then
               echo "There are files to be uploaded. Installing bioblend..."
