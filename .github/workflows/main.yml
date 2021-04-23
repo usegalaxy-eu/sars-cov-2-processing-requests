@@ -23,29 +23,13 @@ jobs:
           fetch-depth: 2
       - name: Run a multi-line script
         run: |
-          pip install bioblend
-          python -c 'import bioblend'
           if [[ `git diff --name-only --diff-filter=A HEAD~1 -- file_requests/` ]]; then
+              echo "There are files to be uploaded. Installing bioblend..."
+              pip install bioblend
               for new_links_file in `git diff --name-only --diff-filter=A HEAD~1 -- file_requests/`; do
+                  echo "Uploading $new_links_file..."
                   python upload_file_to_galaxy.py $new_links_file 'FTP links by library' -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i 311a32d7489f126c
               done
+          else
+              echo "No new files added in the last commit."
           fi
-
-      # - uses: actions/cache@v2
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
-      #       - name: Run a multi-line script
-      #         run: |
-      #           if [[ `git diff --name-only HEAD~1 file_requests/` ]]; then
-      #               for $new_file in `git diff --name-only HEAD~1 file_requests/`; do
-      #                   python -g https://usegalaxy.eu -a $GALAXY_API_KEY -i c2385e3cf582118c -u 20
-#                fi
-#- name: Run a multi-line script
-#        run: |
-
-
-#          fi
-#          echo test, and deploy your project.
