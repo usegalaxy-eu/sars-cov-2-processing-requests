@@ -3,7 +3,7 @@
 Request execution of Galaxy SARS-CoV-2 variation analysis workflows on input data you provide.
 
 
-## Prerequisites:
+## Prerequisites
 
 This automation system is set up to work with **ARTIC-amplified paired-end Illumina sequence data**, the most common type of SARS-CoV-2 sequencing data today.
 
@@ -33,7 +33,7 @@ This automation system is set up to work with **ARTIC-amplified paired-end Illum
 
 ----------
 
-The analyses will be performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io) and [BioContainers](https://biocontainers.pro). The workflows will run on the [de.NBI-coud](https://www.denbi.de) and are part of the Galaxy COVID-19 efforts with
+The analyses will be performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io) and [BioContainers](https://biocontainers.pro). The workflows will run on the [de.NBI-cloud](https://www.denbi.de) and form part of the Galaxy COVID-19 efforts with
 partners around the world. For more information please visit [https://github.com/galaxyproject/SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2).
 
 <!--
