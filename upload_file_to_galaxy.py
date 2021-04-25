@@ -35,11 +35,13 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
+    # use the filename without suffix as the collection element identifier
+    element_id = os.path.splitext(os.path.basename(args.links_file))[0]
     gi = galaxy.GalaxyInstance(args.galaxy_url, args.api_key)
     dataset_id = gi.tools.upload_file(args.links_file, args.history_id)['outputs'][0]['id']
     collection_description = {'collection_type': 'list',
                               'element_identifiers': [{'id': dataset_id,
-                                                       'name': os.path.basename(args.links_file),
+                                                       'name': element_id,
                                                        'src': 'hda'}],
                               'name': args.collection_name}
     gi.histories.create_dataset_collection(args.history_id, collection_description)
