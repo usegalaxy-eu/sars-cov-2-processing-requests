@@ -1,2 +1,3 @@
-country	name	surname	institute	consortia	homepage
-DE	Björn	Grüning	Uni-Freiburg		https://galaxyproject.eu
+country	type	name	institute	homepage	publiation
+DE	person	Björn Grüning	Uni-Freiburg	https://galaxyproject.eu
+UK	consortia	COG-UK		https://www.cogconsortium.uk	
