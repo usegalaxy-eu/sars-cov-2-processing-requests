@@ -1,0 +1,9 @@
+# Nested batch of data for testing new more complex link specs
+ERX5451093: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/000/ERR5739250/ERR5739250_1.fastq.gz
+ERX5451093: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/000/ERR5739250/ERR5739250_2.fastq.gz
+ERX5451093: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/001/ERR5739251/ERR5739251_1.fastq.gz
+ERX5451093: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/001/ERR5739251/ERR5739251_2.fastq.gz
+ERX5451094: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/005/ERR5739255/ERR5739255_1.fastq.gz
+ERX5451094: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/005/ERR5739255/ERR5739255_2.fastq.gz
+ERX5451094: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/005/ERR5739255/ERR5739256_1.fastq.gz
+ERX5451094: ftp.sra.ebi.ac.uk/vol1/fastq/ERR573/005/ERR5739255/ERR5739256_2.fastq.gz
