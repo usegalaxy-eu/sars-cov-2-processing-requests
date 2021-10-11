@@ -28,7 +28,7 @@ jobs:
               pip install bioblend
               for new_links_file in `git diff --name-only --no-renames --diff-filter=A HEAD~1 -- file_requests/`; do
                   echo "Uploading $new_links_file..."
-                  python upload_file_to_galaxy.py $new_links_file 'FTP links by library' -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i 311a32d7489f126c
+                  python upload_file_to_galaxy.py $new_links_file 'Illumina ARTIC links' -g https://usegalaxy.eu -a ${{ secrets.GALAXY_API_KEY }} -i 311a32d7489f126c
               done
           else
               echo "No new files added in the last commit."
