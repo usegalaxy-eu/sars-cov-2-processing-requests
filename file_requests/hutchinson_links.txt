@@ -1,0 +1,19 @@
+# upload links for all of PRJNA681234
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/022/SRR13160722/SRR13160722_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/023/SRR13160723/SRR13160723_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/024/SRR13160724/SRR13160724_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/025/SRR13160725/SRR13160725_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/026/SRR13160726/SRR13160726_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/027/SRR13160727/SRR13160727_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/028/SRR13160728/SRR13160728_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/029/SRR13160729/SRR13160729_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/030/SRR13160730/SRR13160730_1.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/022/SRR13160722/SRR13160722_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/023/SRR13160723/SRR13160723_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/024/SRR13160724/SRR13160724_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/025/SRR13160725/SRR13160725_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/026/SRR13160726/SRR13160726_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/027/SRR13160727/SRR13160727_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/028/SRR13160728/SRR13160728_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/029/SRR13160729/SRR13160729_2.fastq.gz
+ftp.sra.ebi.ac.uk/vol1/fastq/SRR131/030/SRR13160730/SRR13160730_2.fastq.gz
