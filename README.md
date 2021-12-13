@@ -28,7 +28,7 @@ This automation system is set up to work with **ARTIC-amplified paired-end Illum
 
 * [Documentation for the project](https://covid19.galaxyproject.org/genomics/global_platform/)
 * [Scripts for our analysis bot](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/main/docs/overview.md)
-* [planemo](https://github.com/galaxyproject/planemo) and [bioblend](https://github.com/galaxyproject/bioblend) tools powering the automation of the analyses.
+* [Planemo](https://github.com/galaxyproject/planemo) and [BioBlend](https://github.com/galaxyproject/bioblend) tools powering the automation of the analyses.
 
 
 ----------
